@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.stopwatch {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#display {
+    font-size: 24px;
+}
+
+.controls button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: #45a049;
+}
+
+.btn{
+    border: none;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 0;
+    padding: 50px;
+    width: 80px;
+}
